@@ -1,0 +1,35 @@
+gitignore
+# Android Studion ja Gradlen väliaikaistiedostot
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+
+# Firebase-asetukset (sisältää API-avaimia)
+app/google-services.json
+
+# Allekirjoitusavaimet (Keystores)
+*.jks
+*.keystore
+*.p12
+
+# Google Play -julkaisutiedot
+google-services.json
+
+local.properties
+
+# Logit ja testitulokset
+/captures
+.externalNativeBuild
+.cxx
